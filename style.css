@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css");
+body {
+  background-color: #d6deec;
+}
+
+a {
+  color: black !important;
+}
+
+.header {
+  background-color: #456398;
+}
+
+.bg-body-tertiary {
+  background-color: #a2b48f !important;
+}
+
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.logo_bloque {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lupa_icon {
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.presentacion_img {
+  height: 600px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("https://c4.wallpaperflare.com/wallpaper/644/569/83/animales-baby-cachorros-labrados-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* ajusta la imagen sin deformar */
+  background-position: center;
+  /* centra la imagen */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.presentacion_img .btn-primary {
+  background-color: green;
+  border: solid 2px;
+  border-color: #004d00;
+}
+@media screen and (max-width: 720px) {
+  .presentacion_img {
+    max-height: 300px;
+  }
+}
+
+.img-fluid {
+  transition: 0.7s ease;
+}
+.img-fluid:hover {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.footer {
+  gap: 5px;
+  padding: 15px;
+  background-color: #1470a9;
+  color: #fff;
+}
+
+.imgIconSize {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
